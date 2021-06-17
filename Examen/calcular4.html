@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/page.css">
+</head>
+<body> 
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a  class="navbar-brand"  href="#">Examen Parcial 2</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav" aria-expanded="false" >
+      <span class="narvbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+      <div class="navbar-nav">
+        <div id="usernav" ></div>
+        <a href="#" id="close" class=" nav-item nav-link active"> Finalizar Sesion</a>
+      </div>
+    </div>
+  </nav>
+
+  <div>
+    <div class="row">
+      <div class="col-2 col-md-2">
+    
+          <nav id="sidebar">
+              <ul class="list-unstyled components">                  
+                <li>
+                  <a href="#">Home</a>
+              </li>
+              <li>
+                  <a href="#">Persons</a>
+              </li>
+              <li>
+                  <a href="#">Operations</a>
+              </li> 
+              <li>
+                <a href="#">Ejemplos</a>
+            </li>
+              </ul>        
+          </nav>
+      </div>
+      
+      <div class="col-8 col-md-10">
+        <div class="card container  " >
+          <input type="text" class="caja" id="numero" placeholder="Número">
+          <button class="boton" id="botoncito" onclick="mensaje()">Calcular</button>
+          <input type="text" class="caja" id="resultado" placeholder="Resultado" disabled>       
+      </div>
+      
+      </div>
+    </div>
+
+    
+  </div>
+
+
+<script src="js/script.js"></script>
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
